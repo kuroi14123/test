@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ログイン</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>ログインが必要です</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">ID (ユーザー名)</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">パスワード</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">ログイン</button>
+            <p id="errorMessage" class="error-message"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
